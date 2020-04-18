@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import ImageCard from "./components/ImageCard";
 import ImageSearch from "./components/ImageSearch";
 
@@ -7,7 +7,7 @@ function App() {
 	const [isLoading, setIsLoading] = useState(true);
 	const [term, setTerm] = useState("");
 
-	useEffect(() => {
+	const getImages = useCallback(() => {
 		fetch(
 			`https://pixabay.com/api/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo&pretty=true`
 		)
@@ -19,6 +19,10 @@ function App() {
 			.catch((err) => console.log(err));
 	}, [term]);
 
+	useEffect(() => {
+		getImages();
+	}, [getImages]);
+
 	return (
 		<div className='container  mx-auto'>
 			<ImageSearch searchText={(text) => setTerm(text)} />
@@ -29,9 +33,13 @@ function App() {
 			{isLoading ? (
 				<h1 className='text-6xl text-center mx-auto mt-32'>Loading ...</h1>
 			) : (
-				<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4'>
+				<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4'>
 					{images.map((image) => (
-						<ImageCard key={image.id} image={image} />
+						<ImageCard
+							key={image.id}
+							image={image}
+							searchTag={(tag) => setTerm(tag)}
+						/>
 					))}
 				</div>
 			)}
