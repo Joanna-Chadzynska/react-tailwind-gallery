@@ -8875,6 +8875,110 @@ video {
   grid-template-columns: none;
 }
 
+.hover\:grid-cols-1:hover {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-2:hover {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-3:hover {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-4:hover {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-5:hover {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-6:hover {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-7:hover {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-8:hover {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-9:hover {
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-10:hover {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-11:hover {
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-12:hover {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.hover\:grid-cols-none:hover {
+  grid-template-columns: none;
+}
+
+.focus\:grid-cols-1:focus {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-2:focus {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-3:focus {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-4:focus {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-5:focus {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-6:focus {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-7:focus {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-8:focus {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-9:focus {
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-10:focus {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-11:focus {
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-12:focus {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.focus\:grid-cols-none:focus {
+  grid-template-columns: none;
+}
+
 .col-auto {
   grid-column: auto;
 }
@@ -19179,6 +19283,110 @@ video {
   }
 
   .sm\:grid-cols-none {
+    grid-template-columns: none;
+  }
+
+  .sm\:hover\:grid-cols-1:hover {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-2:hover {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-3:hover {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-4:hover {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-5:hover {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-6:hover {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-7:hover {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-8:hover {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-9:hover {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-10:hover {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-11:hover {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-12:hover {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .sm\:hover\:grid-cols-none:hover {
+    grid-template-columns: none;
+  }
+
+  .sm\:focus\:grid-cols-1:focus {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-2:focus {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-3:focus {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-4:focus {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-5:focus {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-6:focus {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-7:focus {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-8:focus {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-9:focus {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-10:focus {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-11:focus {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-12:focus {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .sm\:focus\:grid-cols-none:focus {
     grid-template-columns: none;
   }
 
@@ -29490,6 +29698,110 @@ video {
     grid-template-columns: none;
   }
 
+  .md\:hover\:grid-cols-1:hover {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-2:hover {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-3:hover {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-4:hover {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-5:hover {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-6:hover {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-7:hover {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-8:hover {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-9:hover {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-10:hover {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-11:hover {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-12:hover {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:hover\:grid-cols-none:hover {
+    grid-template-columns: none;
+  }
+
+  .md\:focus\:grid-cols-1:focus {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-2:focus {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-3:focus {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-4:focus {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-5:focus {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-6:focus {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-7:focus {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-8:focus {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-9:focus {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-10:focus {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-11:focus {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-12:focus {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:focus\:grid-cols-none:focus {
+    grid-template-columns: none;
+  }
+
   .md\:col-auto {
     grid-column: auto;
   }
@@ -39798,6 +40110,110 @@ video {
     grid-template-columns: none;
   }
 
+  .lg\:hover\:grid-cols-1:hover {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-2:hover {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-3:hover {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-4:hover {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-5:hover {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-6:hover {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-7:hover {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-8:hover {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-9:hover {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-10:hover {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-11:hover {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-12:hover {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:hover\:grid-cols-none:hover {
+    grid-template-columns: none;
+  }
+
+  .lg\:focus\:grid-cols-1:focus {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-2:focus {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-3:focus {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-4:focus {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-5:focus {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-6:focus {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-7:focus {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-8:focus {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-9:focus {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-10:focus {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-11:focus {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-12:focus {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:focus\:grid-cols-none:focus {
+    grid-template-columns: none;
+  }
+
   .lg\:col-auto {
     grid-column: auto;
   }
@@ -50103,6 +50519,110 @@ video {
   }
 
   .xl\:grid-cols-none {
+    grid-template-columns: none;
+  }
+
+  .xl\:hover\:grid-cols-1:hover {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-2:hover {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-3:hover {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-4:hover {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-5:hover {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-6:hover {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-7:hover {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-8:hover {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-9:hover {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-10:hover {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-11:hover {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-12:hover {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .xl\:hover\:grid-cols-none:hover {
+    grid-template-columns: none;
+  }
+
+  .xl\:focus\:grid-cols-1:focus {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-2:focus {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-3:focus {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-4:focus {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-5:focus {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-6:focus {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-7:focus {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-8:focus {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-9:focus {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-10:focus {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-11:focus {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-12:focus {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .xl\:focus\:grid-cols-none:focus {
     grid-template-columns: none;
   }
 
